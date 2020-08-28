@@ -1,0 +1,12 @@
+/**
+ *  @file
+ *  @copyright defined in dnc/LICENSE.txt
+ */
+
+#include <dncio/chain/genesis_state.hpp>
+
+namespace dncio { namespace chain {
+
+const string genesis_state::dncio_root_key = "${dncIO_ROOT_KEY}";
+
+} } // namespace dncio::chain

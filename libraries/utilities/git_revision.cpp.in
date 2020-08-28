@@ -1,0 +1,14 @@
+#include <stdint.h>
+#include <dnc/utilities/git_revision.hpp>
+
+#define dnc_GIT_REVISION_SHA "@dnc_GIT_REVISION_SHA@"
+#define dnc_GIT_REVISION_UNIX_TIMESTAMP @dnc_GIT_REVISION_UNIX_TIMESTAMP@
+#define dnc_GIT_REVISION_DESCRIPTION "@dnc_GIT_REVISION_DESCRIPTION@"
+
+namespace dncio { namespace utilities {
+
+const char* const git_revision_sha = dnc_GIT_REVISION_SHA;
+const uint32_t git_revision_unix_timestamp = dnc_GIT_REVISION_UNIX_TIMESTAMP;
+const char* const git_revision_description = dnc_GIT_REVISION_DESCRIPTION;
+
+} } // end namespace dncio::utilities
